@@ -12,6 +12,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 15%;
     background-color: #8080ff;   
     margin-bottom: 15px;    
 }
@@ -26,11 +27,12 @@ body {
     display: flex;    
     justify-content: space-between;
     list-style: none;
-    padding: 20px;
+    font-size: 1.1em;
+    padding: 20px; /* 20 / 980 = 2.040%*/
 }
 
 .navbar-list > li {
-    padding: 10px;
+    padding: 10px; /* 10 / 980 = 1.020%*/
     background: #ff8080;    
     border-radius: 3px;
     margin: 0 10px;
@@ -55,6 +57,7 @@ body {
 
 .news {
     float: left;
+    font-size: 1.1em;
     width: 45.91%;
     height: 68.87%;   /*68.87%*/
     margin: 2.040%;
@@ -66,7 +69,9 @@ body {
     margin-bottom: 2.830%;
 }
 
-
+.news h2 {
+    font-size: 1.8em;
+}
 
 .news > p {
     text-align: justify;
@@ -99,17 +104,18 @@ audio {
 
 footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;   
+    justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     background-color:#8080ff;
+    height: 15%;
 }
 
 .social-midia {
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 20%;
 }
 
 .social-midia > li {
@@ -123,6 +129,7 @@ footer {
 footer > p {    
     text-align: center;
     font-weight: bolder;
+    margin-left: 20px;
 }
 
 /* 970px
