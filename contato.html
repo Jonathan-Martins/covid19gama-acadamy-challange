@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <title>COVID-19</title>
+</head>
+<body>
+    <!-- Cabeçalho-->
+    <header class="header">
+        <h1>COVID-19</h1>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="saibamais.html">Saiba mais</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fim do cabeçalho-->
+    
+    <!-- Container-->
+    <div class="container">        
+        <!-- Conteúdo principal-->
+        <main class="main-content">
+            <form method="POST" action="./assets/php/email.php" class="form">
+                <h2>Formulário de contato</h2>                       
+                <label for="name">Nome: </label>
+                <input type="text" name="name">
+
+                <label for="email">E-mail: </label>
+                <input type="email" name="email">
+
+                <label for="message">Mensagem: </label>
+                <textarea name="message"cols="30" rows="10"></textarea>
+
+                <button>Enviar</button>
+            </form>
+        </main>
+        <!-- Fim do conteúdo principal-->
+    </div>
+    <!-- Fim do container-->
+
+    <!-- Rodapé-->
+    <footer>
+        <p>Desenvolvido por Jonathan Martins</p>
+        <ul class="social-midia">
+            <li>
+                <a href="https://www.instagram.com/explore/tags/covid19/" target="_blank">
+                    <img src="assets/img/Instagram-Icon.png" alt="ícone do Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/explore" target="_blank">
+                    <img src="assets/img/twitter-icon2.png" alt="ícone do github">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="assets/img/facebook-icon.png" alt="ícone do facebook">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!-- Fim do rodapé-->
+</body>
+</html>
