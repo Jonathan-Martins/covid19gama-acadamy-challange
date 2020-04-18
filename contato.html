@@ -34,7 +34,7 @@
     <div class="container">        
         <!-- Conteúdo principal-->
         <main class="main-content">
-            <form method="POST" action="./assets/php/email.php" class="form">
+            <form method="POST" class="form" netlify>
                 <h2>Formulário de contato</h2>                       
                 <label for="name">Nome: </label>
                 <input type="text" name="name">
@@ -45,7 +45,7 @@
                 <label for="message">Mensagem: </label>
                 <textarea name="message"cols="30" rows="10"></textarea>
 
-                <button>Enviar</button>
+                <button type="submit">Enviar</button>
             </form>
         </main>
         <!-- Fim do conteúdo principal-->

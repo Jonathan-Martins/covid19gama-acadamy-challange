@@ -93,8 +93,7 @@ input#control-nav {
 
     input#control-nav:checked ~ nav,
     input#control-nav:checked ~ .control-nav-close {
-        transform: translate(100%, 0);
-        
+        transform: translate(100%, 0);        
     }
 }
 
