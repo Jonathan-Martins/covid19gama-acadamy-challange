@@ -23,24 +23,31 @@ input#control-nav {
     }
 
     .navbar-list {
-        flex-direction: column;       
+        flex-direction: column;      
         padding: 0;
     }
 
     .navbar-list li {
+        padding-top: 15px;
         width: 100%;
-       
+        text-align: center;
+        border-radius: 0;
+      /*  border-bottom: 1px solid #d6d6d6; */       
+    }
+    
+    .navbar-list li:not(:last-child) {
+        border-bottom: 1px solid #ccc;
     }
 
     .navbar-list li a {
         padding: 15px 10px;
-        color: #000;
+        color: #fff;
     }
     
     .control-nav {
         position: absolute;
         right: 20px;
-        top: 20px;
+        top: 30px;
         display: block;
         width: 30px;
         padding: 5px 0;
