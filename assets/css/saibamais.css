@@ -8,46 +8,7 @@ body {
     padding: 1.5% 0;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 15%;
-    background-color: #8080ff;   
-    margin-bottom: 15px;    
-}
-
-.header h1 {
-    color: #ffff80;
-    margin-left: 20px;
-    font-size: 2em;
-}
-
-.navbar-list {
-    display: flex;    
-    justify-content: space-between;
-    list-style: none;
-    font-size: 1.1em;
-    padding: 20px;
-}
-
-.navbar-list > li {
-    padding: 10px;
-    background: #ff8080;    
-    border-radius: 3px;
-    margin: 0 10px;
-}
-
-.navbar-list > li > a {
-    text-decoration: none;
-    color: #fff;
-    transition: 0.2s;
-}
-
-.navbar-list > li > a:hover {
-    color: #ffff80
-}
+/* aqui vem o CSS do header */
 
 .main-content {
     display: flex;
@@ -89,33 +50,7 @@ body {
     color:#fff;   
 }
 
-footer {
-    display: flex;    
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    background-color:#8080ff;
-}
-
-.social-midia {
-    display: flex;
-    justify-content: space-between;
-    width: 20%;
-}
-
-.social-midia > li {
-    list-style: none;    
-}
-
-.social-midia > li > a > img {
-    width: 30%;
-}
-
-footer > p {    
-    text-align: center;
-    font-weight: bolder;
-    margin-left: 20px;
-}
+/* aqui vem o CSS do footer */
 
 /* 970px
    780px

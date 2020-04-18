@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color:#8080ff;
+    height: 15%;
+}
+
+.social-midia {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.social-midia > li {
+    list-style: none;    
+}
+
+.social-midia > li > a > img {
+    width: 30%;
+}
+
+footer > p {    
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 20px;
+}
